@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>alls4</name>
+	<version>1.0.0</version>
+	<creationDate>05/2011</creationDate>
+	<author>www.allshoolsite.ru</author>
+	<authorEmail></authorEmail>
+	<authorUrl>http://www.allshoolsite.ru</authorUrl>
+	<copyright>GNU/GPL</copyright>
+	<description>www.allshoolsite.ru-шаблоны для школьных сайтов</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+				
+		<filename>images/but.gif</filename>
+		<filename>images/search_but.gif</filename>
+		<filename>images/box_h3_l.png</filename>
+		<filename>images/headerimg.jpg</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/inputbox.png</filename>
+		<filename>images/footer.png</filename>
+		<filename>images/box_h3.png</filename>
+		<filename>images/menu_arrow.png</filename>
+		<filename>images/menu_arrow_hover.png</filename>
+		<filename>images/t_menu.png</filename>
+		<filename>images/t_menu_hover.png</filename>
+		<filename>images/t_menu_bg.png</filename>
+		<filename>images/back.png</filename>
+		<filename>images/box_t.png</filename>
+		<filename>images/box_m.png</filename>
+		<filename>images/box_b.png</filename>
+		<filename>images/wrapper.png</filename>
+		
+		
+		
+		<filename>css/index.html</filename>
+		<filename>css/template.css</filename>
+		<filename>css/editor.css</filename>
+	</files>
+	<positions>
+		<position>user4</position>            
+		<position>user3</position>            
+		<position>top</position>            
+		<position>user2</position>            
+		<position>left</position>                  
+		<position>right</position>            
+		<position>debug</position>       
+	</positions>
+</install>

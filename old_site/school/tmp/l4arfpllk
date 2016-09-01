@@ -1,0 +1,299 @@
+
+		
+	<!DOCTYPE html>
+<html dir="ltr" lang="ru">
+<head>
+<title>DepositFiles</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="DepositFiles provides you with a legitimate technical solution, which  enables you to upload, store, access and download text, software,  scripts, images, sounds, videos, animations and any other materials in form of one or several electronic files.">
+
+<meta property="og:title" content="Deposit Files" />
+<meta property="og:image" content="http://static907.dfiles.ru/images/speed_small_gold.gif" />
+<link rel="shortcut icon" type="image/ico" href="http://static907.dfiles.ru/images/favicon.ico"/>
+
+<link rel="stylesheet" href="http://static907.dfiles.ru/css/main.css" type="text/css" media="all" />
+	
+		<script type="text/javascript">
+			if (window.top != window.self) {
+				var cur = window.location.href;
+				if(cur.match(/\/files\//)){
+					top.location.href = cur;
+				}
+			}
+		</script>
+	
+
+<script type="text/javascript" src="http://static907.dfiles.ru/js/base2.js"></script>
+<script type="text/javascript" src="http://static907.dfiles.ru/js/jquery.validate.js"></script>
+<script type="text/javascript" src="http://static907.dfiles.ru/js/function.js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+
+<!--script src="http://static907.dfiles.ru/js/xc-min.js" type="text/javascript"></script-->
+
+<script type="text/javascript">
+	var http_abs_path = 'http://dfiles.ru';
+	var http_static_path = 'http://static907.dfiles.ru';
+	var ssl_static_path = 'https://static907.depositfiles.com';
+	var http_ads_path = 'http://img2.dfiles.ru/adroot';
+	var lang = 'ru';
+	var user_country = 'RU';
+	document.domain = 'dfiles.ru';
+	
+	var RecaptchaOptions = {
+		theme : 'white',
+		lang : 'ru'
+	};
+	
+	$(document).ready(function(){
+		$(window).resize(function() {
+			var height = self.innerHeight || (document.documentElement && document.documentElement.clientHeight) || document.body.clientHeight;
+			$('#main').css('min-height', height - parseInt($('#main').css('padding-top')) - parseInt($('#main').css('padding-bottom')) - $('#foobar').outerHeight(true));
+		});
+		$(window).resize();
+	});
+	
+</script>
+
+</head>
+<body class="lang_ru page_download">
+				<div id="main">
+		<div class="top_menu">
+			<a href="http://dfiles.ru" id="logo"><span>easy cloud service</span></a>
+			
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.login_block a[data-login-type=member]').click(function(evt) {
+		evt.preventDefault();
+		evt.stopPropagation();
+		$('.login_info').toggle();
+	});
+	$('.login_block .new_message').click(function() {
+		$(this).hide();
+	});
+	$('.profile_menu > li > a').not('.logout').click(function(evt) {
+		evt.preventDefault();
+		evt.stopPropagation();
+		$(this).next('ul').toggle();
+	});
+	$(document).click(function() {
+		$('.login_info').hide();
+	});
+});
+</script>
+
+<div class="login_block"  data-type="guest">
+	<a class="link" href="/login.php?return=%2Ffiles%2Fl4arfpllk">
+		<span class="sprite user_icon"></span>
+		<strong>Войти</strong>
+	</a>
+</div>
+<div class="login_block" style="display: none;" data-type="member">
+	<a class="new_message" href="/tickets/history.php?new" title="Новое сообщение: " style="display: none;"></a>
+	<a class="link" href="#" data-login-type="member">
+		<span class="sprite user_icon user_member"></span>
+		<strong data-id="username"></strong>
+		<span class="sprite profile_btn"></span>
+	</a>
+	<div class="login_info">
+		<ul class="profile_menu">
+			<li>
+				<a href="#">Мой профиль</a>
+				<ul class="submenu">
+					<li><a href="/gold/profile.php" >Личная информация</a></li>
+					<li><a href="/gold/profile.php?show=password" >Изменить пароль</a></li>
+					<li><a href="/gold/profile.php?show=payoff" >Платежная информация</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Платежи</a>
+				<ul class="submenu">
+					<li><a href="/gold/payment.php" >DepositFiles Gold</a></li>
+					<li><a href="/gold/storage_payment.php" >Расширить DepositStorage</a></li>
+					<li><a href="/gold/payment_history.php" >Статус</a></li>
+					<li><a href="/gold/payment_subscribe_manage.php" >Управление подписками</a></li>
+				</ul>
+			</li>
+			<li><a class="logout" href="/logout.php">Выход</a></li>
+		</ul>
+	</div>
+</div>			<ul class="df_menu">
+	<li class="" data-group-id="upload"><a href="/" class="sprite upload_icon" title="Загрузить"></a></li>
+	<li class="" data-group-id="filemanager" style="display: none;"><a href="/gold/files_list.php" class="sprite manage_icon" title="Мои файлы"></a></li>
+	<li class="" data-group-id="payment"><a href="/gold/payment.php" class="sprite payment_icon" title="Платежи"></a></li>
+	<li class="" data-group-id="loyalty"><a href="/loyalty.html" class="sprite loyalty_icon" title="Лояльность"></a></li>
+	<li class="" data-group-id="bonus" style="display: none;"><a href="/gold/bonus_program.php" class="sprite stats_icon" title="Моя статистика"></a></li>
+	<li class="" data-group-id="help"><a href="/tickets.html" class="sprite help_icon" title="Помощь"></a></li>
+	<li class="" data-group-id="reselling" style="display: none;"><a href="/gold/reselling_payment.php" class="sprite reselling_icon" title="Реселлинг"></a></li>
+</ul>		</div>
+		<div id="member_menu">
+			
+<style type="text/css">
+#member_menu .submenu {text-align: center;}
+#member_menu a.active {font-weight: normal;}
+</style>
+
+
+		<div class="submenu">
+			<a href="/status_storage.html" target="_blank">Создай свой собственный онлайн диск размером 25ГБ на DepositStorage БЕСПЛАТНО!</a>
+		</div>
+			</div>
+		
+				
+				<div class="content right">
+										<div class="sidebar sidebar_right">
+								<div align="center" style="position:relative;">
+					<iframe src="http://ads.dfiles.ru/ad.php?z=12&c=RU&g=no_file" width="221px" height="600px" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" hspace="0" vspace="0"></iframe>
+			</div>
+			
+				</div>
+					</div>
+				
+		<div class="content left body">
+												
+				<div class="banner1" style="text-align:center;">
+				<iframe id="ads_z3_frame" width="728px" height="91px" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" hspace="0" vspace="0"></iframe>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#ads_z3_frame').attr('src', 'http://ads.dfiles.ru/ad.php?z=3&c=RU&g=no_file');
+			});
+		</script>
+		</div>
+		
+			
+										<div class="content_body">
+					<div class="downloadblock downloadblock_msg">
+
+
+<style>
+.no_download_msg span { display: inline-block; }
+.no_download_msg #download_waiter_remain {display: inline-block; vertical-align: middle; } 
+#no_download_message {display: none; }
+</style>
+<script>
+	$(document).ready(function(){
+		window.wait = 25;
+		window.wait_timer = setInterval(function(){
+			$('#download_waiter_remain').text(window.wait--);
+			if (window.wait <= 0) {
+				clearInterval(window.wait_timer);
+				$('#no_download_timer').hide();
+				$('#no_download_message').show();
+			}	
+		}, 1000);
+	});
+</script>
+
+<div class="no_download_msg" id="no_download_timer" >
+	<span >Ожидайте:</span>
+	<span id="download_waiter_remain">25</span>
+	<span >сек</span>
+</div>
+<div class="no_download_msg" id="no_download_message">
+		Такого файла не существует, доступ к нему ограничен или он был удален из-за нарушения авторских прав.		<span class="html_download_api-not_exists"></span>		
+</div>
+</div>
+	<div align="center" style="position:relative; margin-top: 20px;">
+			<iframe src="http://ads.dfiles.ru/ad.php?z=10&c=RU&g=no_file" width="728px" height="560px" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" hspace="0" vspace="0"></iframe>
+		</div>
+<br class="separator"/>
+<br class="separator"/>
+
+				</div>
+					</div>
+						<div class="content left">
+					</div>
+				<br class="separator" />
+	</div>
+	<div id="error_messages" style="display: none;">		<span data-id="CaptchaInvalid">Неверный защитный код</span>	<span data-id="LoginInvalid">Неверный логин или пароль</span>	<span data-id="UnknownError">Неизвестная ошибка</span>	<span data-id="InvalidInputData">Неверный формат</span>	<span data-id="errLoginRequired2">Пожалуйста, введите логин</span>			<span data-id="CaptchaRequired">Требуется ввести защитный код</span>	<span data-id="errLoginRequired">Пожалуйста, введите желаемый логин</span>	<span data-id="errPasswordRequired">Пожалуйста, введите свой ​​пароль</span>	<span data-id="errRePasswordRequired">Пожалуйста, повторите пароль</span>	<span data-id="errRePasswordEqualTo">Ваш пароль и повторно введенный пароль должны быть одинаковыми</span>	<span data-id="errEmailRequired">Введите ваш e-mail</span>	<span data-id="errEmailInvalid">Вероятно, введен неправильный адрес электронной почты</span>	<span data-id="errAgreeRequired">Чтобы продолжить, вы должны согласиться с правилами нашего сервиса.</span>	<span data-id="errLoginMinValue">Please enter at least {0} characters.</span>	<span data-id="errLoginMaxValue">Please enter no more than {0} characters.</span>			<span data-id="textUnknown">Неизвестное</span>	<span data-id="textError">Ошибка</span>	<span data-id="textComplete">Завершено</span>	<span data-id="textInqueue">В очереди</span>	<span data-id="textBlocked">Заблокированный</span>	<span data-id="Incorrectsizeoffile">Неверный размер файла</span>	<span data-id="Filetoosmall">Файл слишком мал.</span>	<span data-id="nologs">Записей событий еще нет</span>		<span data-id="textSize">Размер</span>	<span data-id="textUploaded">Загружено</span>	<span data-id="textStatus">Статус</span>	<span data-id="textDownload">Скачано</span>	<span data-id="textWillBeDeleted">Будет удален</span>	<span data-id="textDownloadUrl">Скачать Url</span>	<span data-id="textFolderName">Имя папки</span>	<span data-id="textFileName">Имя файла</span>	<span data-id="textLocation">Местоположение</span>			<span data-id="InvalidCurrentPassword">Текущий пароль недействительный </span>	</div>	
+	<div style="clear: both;"></div>
+<div id="foobar" class="foobar">
+	<div class="leftbar">
+		<div class="lang_flags">
+										
+						
+							<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=ru" class="flag_ru active" title="русский"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=en" class="flag_en" title="english"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=de" class="flag_de" title="deutsch"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=es" class="flag_es" title="español"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=pt" class="flag_pt" title="português"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=fr" class="flag_fr" title="français"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=ja" class="flag_ja" title="日本語"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=nl" class="flag_nl" title="dutch"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=it" class="flag_it" title="italiano"></a>
+				<br />							<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=sv" class="flag_sv" title="svenska"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=tr" class="flag_tr" title="türkçe"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=da" class="flag_da" title="dansk"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=pl" class="flag_pl" title="polski"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=el" class="flag_el" title="ελληνικά"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=cs" class="flag_cs" title="čeština"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=zh" class="flag_zh" title="正體字"></a>
+											<a href="/switch_lang.php?return_url=%2Ffiles%2Fl4arfpllk&amp;lang=zs" class="flag_zs" title="简体字"></a>
+									</div>
+		<div class="copyright">&copy; 2006-2014 Depositfiles.com</div>
+		<div class="service18"><span>Сервис для</span> <span class="icon18"></span></div>		<div class="mobile_link"><span class="sprite mobile_icon"></span><a href="?mobile=yes">Мобильная версия</a></div>
+	</div>
+	
+	<div class="rightbar">
+		<dl class="agreem_list">
+			<dt>Соглашение и политики</dt>
+			 				<dd><a href="/bp_subscribe_terms.html">Правила предоставления Подписки на услугу</a></dd>
+				<dd><a href="/bp_subscribe_control.html">Управление подпиской</a></dd>
+						<dd><a href="/agreem.html">Пользовательское соглашение</a></dd>
+			<dd><a href="/confid.html">Политика конфиденциальности</a></dd>
+			<dd><a href="/abuse_copyr.html">Политика Авторского Права</a></dd>
+			<dd><a href="/payment_policy.html">Правила осуществления платежей</a></dd>
+			<dd><a href="/recurring_policy.html">Политика Периодических Платежей</a></dd>
+			<dd><a href="/vobile.html">Партнерство с Vobile</a></dd>
+			<dd><a href="/audible_magic.html">Партнерство с Audible Magic<br />
+</a></dd>
+		</dl>
+		<dl>
+			<dt>Центр поддержки</dt>
+			<dd><a href="/faq.html">FAQ</a></dd>
+			<dd><a href="/tickets.html">Контакты</a></dd>
+			<dd><a href="/tools.html">DepositTools</a></dd>
+					</dl>
+		<dl>
+			<dt>Информация</dt>
+			<dd><a href="/news.php">Новости</a></dd>
+			<dd><a href="/status.html">О DepositFiles</a></dd>
+			<dd><a href="/status_storage.html">О DepositStorage</a></dd>
+			<dd><a href="/aplace.html">Реклама у нас</a></dd>
+		</dl>
+	</div>
+	<div class="clear"></div>
+	
+			
+ 	<div id="foobar2">
+					<span>
+			 Стоимость доступа к услугам контент-провайдера устанавливается 
+Вашим оператором.
+Стоимость услуги составляет 20.00 рублей с НДС за 1 календарный 
+день для абонентов ОАО "МТС". С порядком списания стоимости 
+услуги можно ознакомиться на cайте ОАО «МТС» www.mts.ru в 
+разделе «Услуги по коротким номерам», введя короткий номер или 
+идентификатор услуги в строке поиска, а также позвонив по 
+единому номеру 88002500890. Для отказа от предоставления 
+Подписки на Контент отправьте смс-сообщение с командой СТОП на 
+номер 771999 (смс бесплатно в домашнем регионе) или наберите 
+ussd-команду *152*2#вызов (бесплатно).
+стоимость доступа составляет 20.00 рублей (включая НДС) за 1 
+день для абонентов ОАО "Вымпелком"; 20.00 рублей (включая НДС) 
+за 1 день для абонентов ОАО "МегаФон"; продление доступа 
+происходит автоматически, посредством подписки. Для отказа от 
+предоставления Подписки на услугу отправьте смс-сообщение со 
+словом "СТОП" на номер 9115 для абонентов ОАО "Вымпелком"; 
+отправьте смс-сообщение "СТОП 2750" на номер 5051 для абонентов 
+ОАО "МегаФон"; сообщение бесплатно в домашнем регионе. Либо 
+воспользуйтесь формой управления подпиской.
+Телефоны службы поддержки: 8-800-333-49-06 для абонентов ОАО 
+"МТС"; 8-800-333-49-06 для абонентов ОАО "Вымпелком"; 
+8-800-3333-455 для абонентов ОАО "МегаФон";
+			</span>
+			</div>
+		
+	<!-- 1392636421 -->
+</div>			<script type="text/javascript">
+var pageTracker = false;
+</script></body>
+</html>
